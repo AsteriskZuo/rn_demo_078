@@ -7,11 +7,26 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
+    "startr": "react-native start --reset-cache",
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-camera-roll/camera-roll": "^7.10.0",
+    "@react-native-clipboard/clipboard": "^1.16.2",
+    "@react-native-documents/picker": "^10.1.2",
     "react": "19.0.0",
-    "react-native": "0.78.1"
+    "react-native": "0.78.1",
+    "react-native-audio-recorder-player": "^3.6.12",
+    "react-native-chat-sdk": "^1.8.0",
+    "react-native-chat-uikit": "link:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.3-beta.1",
+    "react-native-create-thumbnail": "^2.1.1",
+    "react-native-device-info": "^14.0.4",
+    "react-native-file-access": "^3.1.1",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-image-picker": "^7.0.0",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-video": "^6.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

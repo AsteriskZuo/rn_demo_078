@@ -8,6 +8,7 @@
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
+  Button,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -23,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {multiply} from 'react-native-chat-uikit';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -78,10 +80,9 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        style={backgroundStyle}>
+      <ScrollView style={backgroundStyle}>
         <View style={{paddingRight: safePadding}}>
-          <Header/>
+          <Header />
         </View>
         <View
           style={{
@@ -104,6 +105,14 @@ function App(): React.JSX.Element {
           </Section>
           <LearnMoreLinks />
         </View>
+        <Button
+          title="Click me"
+          onPress={() => {
+            console.log('click');
+            console.log(multiply(1, 2));
+          }}
+        />
+        <View style={{height: 100, width: 100, backgroundColor: 'red'}} />
       </ScrollView>
     </View>
   );
