@@ -1,7 +1,7 @@
 PODS:
   - AgoraInfra_iOS (1.2.13)
   - boost (1.84.0)
-  - ChatUikit (2.4.3-beta.1):
+  - ChatUikit (2.4.5):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1283,7 +1283,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-chat-sdk (1.8.0):
+  - react-native-chat-sdk (1.8.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1307,7 +1307,7 @@ PODS:
     - Yoga
   - react-native-create-thumbnail (2.1.1):
     - React-Core
-  - react-native-document-picker (9.3.1):
+  - react-native-document-picker (10.1.2):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1904,7 +1904,7 @@ DEPENDENCIES:
   - "react-native-cameraroll (from `../node_modules/@react-native-camera-roll/camera-roll`)"
   - react-native-chat-sdk (from `../node_modules/react-native-chat-sdk`)
   - react-native-create-thumbnail (from `../node_modules/react-native-create-thumbnail`)
-  - react-native-document-picker (from `../node_modules/react-native-document-picker`)
+  - "react-native-document-picker (from `../node_modules/@react-native-documents/picker`)"
   - react-native-image-picker (from `../node_modules/react-native-image-picker`)
   - react-native-safe-area-context (from `../node_modules/react-native-safe-area-context`)
   - react-native-video (from `../node_modules/react-native-video`)
@@ -2036,7 +2036,7 @@ EXTERNAL SOURCES:
   react-native-create-thumbnail:
     :path: "../node_modules/react-native-create-thumbnail"
   react-native-document-picker:
-    :path: "../node_modules/react-native-document-picker"
+    :path: "../node_modules/@react-native-documents/picker"
   react-native-image-picker:
     :path: "../node_modules/react-native-image-picker"
   react-native-safe-area-context:
@@ -2117,7 +2117,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AgoraInfra_iOS: 65e11a2183ab7836258768868d06058c22701b13
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
-  ChatUikit: a8fff799810aff9f5efdd66ceeb23a168ec85bd1
+  ChatUikit: 78852315c293af90a927ed6ba76c84b811c75e39
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: bba368dacede4c9dec7a58c9be5a2d3e9ea30cc7
@@ -2125,7 +2125,7 @@ SPEC CHECKSUMS:
   glog: eb93e2f488219332457c3c4eafd2738ddc7e80b8
   hermes-engine: f493b0a600aed5dc06532141603688a30a5b2f61
   HyphenateChat: e3869321ba4e1b7e61f320a037935f3f4751e74a
-  RCT-Folly: 36fe2295e44b10d831836cc0d1daec5f8abcf809
+  RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
   RCTDeprecation: 082fbc90409015eac1366795a0b90f8b5cb28efe
   RCTRequired: ca966f4da75b62ce3ea8c538d82cb5ecbb06f12a
   RCTTypeSafety: 2f0bc11f9584fde4c7e6d8b26577c97681051c00
@@ -2156,9 +2156,9 @@ SPEC CHECKSUMS:
   React-Mapbuffer: 39e87693178fd6483bb5ca8b851fae362d49409a
   React-microtasksnativemodule: b740ebae7fad70aa78bc24cc0dfc15ac9637b6eb
   react-native-cameraroll: b93d0a5f753817f337cb32a5e245814f6961c628
-  react-native-chat-sdk: 7de7acfb9f05a9855efbe100326892042bed35d8
+  react-native-chat-sdk: 54add2a7991150e8beab4c94ca1c964ab98596e6
   react-native-create-thumbnail: 733160dca9a548262e1030e7fcdae90a93d203ca
-  react-native-document-picker: bfe9c7d72908d2faba56a4765373c6367090ae2e
+  react-native-document-picker: fffe7d8e56189b482345898aab95987111ee5b14
   react-native-image-picker: ede3b0b991aae11b3c1d61c187a833720e255277
   react-native-safe-area-context: afcc2e2b3e78ae8ef90d81e658aacee34ebc27ea
   react-native-video: 94187eb89b128a5304ef26a8add4ae5cc8181dfb
@@ -2200,6 +2200,6 @@ SPEC CHECKSUMS:
   Yoga: b94ff2d7559cb66837c97a3f394ddb817faad4d6
   ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
 
-PODFILE CHECKSUM: 4a73ddc775423f27fabc08d4ea34b4ef25cc4bd2
+PODFILE CHECKSUM: 857e43b6309f16875dc33b13823eac21bcb2b2c0
 
 COCOAPODS: 1.16.2
