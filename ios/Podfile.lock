@@ -1,7 +1,7 @@
 PODS:
   - AgoraInfra_iOS (1.2.13)
   - boost (1.84.0)
-  - ChatUikit (2.4.5):
+  - ChatUikit (2.4.7):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2117,7 +2117,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AgoraInfra_iOS: 65e11a2183ab7836258768868d06058c22701b13
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
-  ChatUikit: 78852315c293af90a927ed6ba76c84b811c75e39
+  ChatUikit: 7f6d9c1f7f4aa42ad554f222ce9723e85f1a85f9
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: bba368dacede4c9dec7a58c9be5a2d3e9ea30cc7

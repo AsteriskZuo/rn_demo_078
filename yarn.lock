@@ -7817,9 +7817,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.5::locator=rn_demo_078%40workspace%3A.":
-  version: 2.4.5
-  resolution: "react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.5#/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.5::hash=549b94&locator=rn_demo_078%40workspace%3A."
+"react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.7::locator=rn_demo_078%40workspace%3A.":
+  version: 2.4.7
+  resolution: "react-native-chat-uikit@file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.7#/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.7::hash=675887&locator=rn_demo_078%40workspace%3A."
   dependencies:
     date-fns: "npm:^4.1.0"
     pinyin-pro: "npm:^3.26.0"
@@ -7841,7 +7841,7 @@ __metadata:
     react-native-image-picker: "*"
     react-native-safe-area-context: "*"
     react-native-video: "*"
-  checksum: 10c0/05ab8ad9fc512482b4a25fd4e080248f9db67efca4da9015834dd09a45c859e5b3ae6456f3f0dc2ff6823224e51b93fa7a9e453005ecd2f0eb5fb973158cb9df
+  checksum: 10c0/77580ca0223c6768d7cf06481088b776ffd6ea7edc22d9997f5ae2d9f241027be7d1861fe23fc884f28c864f6e34f2fdb02233364c86f060480c24f4681f3d60
   languageName: node
   linkType: hard
 
@@ -8304,7 +8304,7 @@ __metadata:
     react-native: "npm:0.78.1"
     react-native-audio-recorder-player: "npm:^3.6.12"
     react-native-chat-sdk: "npm:^1.8.2"
-    react-native-chat-uikit: "file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.5"
+    react-native-chat-uikit: "file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.7"
     react-native-create-thumbnail: "npm:^2.1.1"
     react-native-device-info: "npm:^14.0.4"
     react-native-file-access: "npm:^3.1.1"

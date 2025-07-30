@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
+    "android": "react-native run-android --verbose",
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
@@ -19,7 +19,7 @@
     "react-native": "0.78.1",
     "react-native-audio-recorder-player": "^3.6.12",
     "react-native-chat-sdk": "^1.8.2",
-    "react-native-chat-uikit": "file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.5",
+    "react-native-chat-uikit": "file:/Users/asterisk/Output/npm/react-native-chat-uikit-2.4.7",
     "react-native-create-thumbnail": "^2.1.1",
     "react-native-device-info": "^14.0.4",
     "react-native-file-access": "^3.1.1",
